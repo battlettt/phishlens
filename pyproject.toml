@@ -1,0 +1,14 @@
+[project]
+name = "phishlens"
+version = "1.0.0"
+description = "Plain-English verdicts for pasted email headers and URLs. No network, nothing stored."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

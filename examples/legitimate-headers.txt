@@ -1,0 +1,26 @@
+Delivered-To: jordan.lee@example.org
+Received: from mx.example.org (mx.example.org [203.0.113.10])
+        by mail.example.org with LMTP id 8ZqvEe0vRmd; Mon, 2 Nov 2026 09:02:13 +0000
+Received: from o7.sgmail.github.com (o7.sgmail.github.com [203.0.113.45])
+        by mx.example.org (Postfix) with ESMTPS id 1B2C3D4E5F
+        for <jordan.lee@example.org>; Mon, 2 Nov 2026 09:02:12 +0000 (UTC)
+Authentication-Results: mx.example.org;
+       dkim=pass header.i=@github.com header.s=pf2023 header.b=Qm9vb2;
+       spf=pass (mx.example.org: domain of bounces+1234567@sgmail.github.com designates
+        203.0.113.45 as permitted sender) smtp.mailfrom=bounces+1234567@sgmail.github.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=github.com
+Return-Path: <bounces+1234567@sgmail.github.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com; s=pf2023;
+        h=from:to:subject:date; bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; b=Qm9vb2
+From: GitHub <noreply@github.com>
+To: jordan.lee@example.org
+Subject: [GitHub] A new SSH key was added to your account
+Date: Mon, 2 Nov 2026 09:02:10 +0000
+Message-ID: <6745f1a2b3c4d_5e6f7a8b9@github.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hey jordan-lee!
+
+A new public key was added to your account. If you did not add it, remove it here:
+https://github.com/settings/keys

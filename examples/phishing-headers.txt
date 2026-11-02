@@ -1,0 +1,29 @@
+Delivered-To: jordan.lee@example.org
+Received: by 2002:a05:6a10:8f0a:b0:4d1:1c2a with SMTP id k10csp912345pxb;
+        Mon, 2 Nov 2026 08:14:09 -0800 (PST)
+Received: from mail.paypal.com (unknown [198.51.100.77])
+        by mx.example.org (Postfix) with ESMTP id 4F2A81C0042
+        for <jordan.lee@example.org>; Mon, 2 Nov 2026 16:14:07 +0000 (UTC)
+Authentication-Results: mx.example.org;
+       spf=fail (mx.example.org: domain of bounce@mailer-notify.top does not designate
+        198.51.100.77 as permitted sender) smtp.mailfrom=bounce@mailer-notify.top;
+       dkim=none;
+       dmarc=none header.from=paypa1-secure.com
+Authentication-Results: paypal.com; spf=pass smtp.mailfrom=paypal.com;
+       dkim=pass header.d=paypal.com; dmarc=pass header.from=paypal.com
+Return-Path: <bounce@mailer-notify.top>
+From: "PayPal Security" <service@paypa1-secure.com>
+Reply-To: paypal.resolution.team@gmail.com
+To: jordan.lee@example.org
+Subject: Your account has been limited - action required
+Date: Mon, 2 Nov 2026 16:14:02 +0000
+Message-ID: <20261102161402.7731@mailer-notify.top>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>We noticed unusual activity on your account. Confirm your details at
+<a href="http://198.51.100.23:8080/paypal.com/webscr/login.php">https://www.paypal.com/signin</a>
+within 24 hours or your account will be closed.</p>
+<p>Or use this short link: <a href="https://bit.ly/3xPpL2k">Restore access</a></p>
+</body></html>
